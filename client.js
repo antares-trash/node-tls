@@ -1,6 +1,5 @@
 const tls = require('tls'),
     fs = require('fs');
-const { X509Certificate } = require('crypto');
 
 process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0;
 const options = {
